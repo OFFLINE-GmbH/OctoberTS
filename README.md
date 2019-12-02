@@ -57,5 +57,6 @@ const response = framework.request('onUpdate')
 
 ## Incompatibilities
 
-* `eval` attributes are not supported (`data-eval-*`)
+* `eval` attributes are not supported (`data-eval-*`) by design and probably won't be in the future
+* There are some limitations to the `data-request-update` syntax: The value has to be wrapped in `'` and functions or variables are not supported (no dynamic evaluation is done!). See [tests](https://github.com/OFFLINE-GmbH/OctoberTS/blob/master/src/utils.test.ts#L10-L35) for examples
 * All event listeners need to get their data off of the `e.details` event property, instead of the multiple function attributes
