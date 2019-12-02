@@ -24,9 +24,9 @@ import {Build, withAttachLoading, withRequest, withValidation} from './framework
 
 // Attach Framework features to the DOM globally.
 const framework = Build(
-    withRequest(),
-    withValidation(),
-    withAttachLoading(),
+    withRequest(),       // data-request
+    withValidation(),    // data-request-validate
+    withAttachLoading(), // data-attach-loading
 )
 
 // Use on demand.
