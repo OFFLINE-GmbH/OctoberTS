@@ -1,0 +1,34 @@
+{
+    "include": [
+        "./src/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ],
+    "types": [
+        "node",
+        "jest",
+        "jest-fetch-mock"
+    ],
+    "compilerOptions": {
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "module": "es6",
+        "target": "es5",
+        "strict": true,
+        "allowJs": true,
+        "importHelpers": true,
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "baseUrl": ".",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "lib": [
+            "esnext",
+            "dom",
+            "dom.iterable"
+        ]
+    }
+}

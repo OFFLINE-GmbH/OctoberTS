@@ -1,0 +1,20 @@
+{
+  "name": "OctoberTS",
+  "version": "dev",
+  "description": "TypeScript implementation of the October CMS Frontend Framework",
+  "main": "index.js",
+  "repository": "https://github.com/OFFLINE-GmbH/OctoberTS.git",
+  "author": "Tobias Kündig <tobias@offline.swiss>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^24.0.23",
+    "jest": "^24.9.0",
+    "jest-fetch-mock": "^2.1.2",
+    "ts-jest": "^24.2.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.7.2"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
