@@ -4,7 +4,7 @@ TypeScript implementation of the October CMS Frontend Framework
 
 ## THIS IS A WORK IN PROGRESS
 
-Do not use this in production. 
+Do not use this in production. The code is still a mess so don't bother creating larger PRs since most of the code base will be refactored. Please open an issue detailing your implementation before you write code.
 
 ```bash
 # install deps
