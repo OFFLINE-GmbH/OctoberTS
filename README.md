@@ -29,7 +29,7 @@ const framework = Build(
     withAttachLoading(), // data-attach-loading
 )
 
-// Use on demand.
+// Use on demand without global event listeners.
 const framework = Build()
 const response = framework.request('onUpdate')
 ```
