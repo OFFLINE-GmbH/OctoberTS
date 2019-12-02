@@ -16,8 +16,10 @@ yarn test
 ## API
 
 ```ts
+// Optional, adds IE11 support
 import './framework/polyfills'
 
+// Import requried features.
 import {Build, withAttachLoading, withRequest, withValidation} from './framework'
 
 // Attach Framework features to the DOM globally.
